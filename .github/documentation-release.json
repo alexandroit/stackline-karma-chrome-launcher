@@ -4,7 +4,7 @@
     {
       "name": "@stackline/karma-chrome-launcher",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -18,8 +18,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/karma-chrome-launcher/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/karma-chrome-launcher/-/karma-chrome-launcher-1.0.0.tgz",
       "baselineIntegrity": "sha512-ZS/b6ziMeLwAHOPxoFGzusFj+T1W1yN7FUiKg9pzQlCFa59/uBI37Rru/YUCkjrPJia799fdg8NfaE+oU4OiVg==",
-      "expectedSha512": "4dad9d88f31bb8dd71323fd137a6f3a8d2402a4a9c744fade09027712f8c069ed21e9cd55a6f11c821697ad1fd2cdb6320728adf5ff5a45ad58705a552ad7734",
-      "tag": "docs-stackline-karma-chrome-launcher-v1.0.1"
+      "expectedSha512": "659b807906fc1177ba9808db2f5bf3fbc49825f2a694376a63f118e60029e0de5bb6d8e37bc40c85d61648311b54be9a6b488438603ef32aa3b396e73df754f6",
+      "tag": "docs-stackline-karma-chrome-launcher-v1.0.2"
     }
   ]
 }
