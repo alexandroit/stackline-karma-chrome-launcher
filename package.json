@@ -1,6 +1,6 @@
 {
   "name": "@stackline/karma-chrome-launcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Karma plugin. Launcher for Chrome and Chrome Canary.",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,12 @@
     "url": "git+https://github.com/alexandroit/stackline-karma-chrome-launcher.git"
   },
   "keywords": [
+    "stackline",
+    "npm-package",
+    "karma-chrome-launcher",
     "karma-plugin",
     "karma-launcher",
     "chrome",
-    "stackline",
     "maintenance-fork"
   ],
   "author": "Vojta Jina <vojta.jina@gmail.com>",
@@ -33,7 +35,7 @@
   },
   "contributors": [
     "Mark Ethan Trostler <mark@zzo.com>",
-    "Rog\u00e9rio Vicente <rogeriopvl@gmail.com>",
+    "Rogério Vicente <rogeriopvl@gmail.com>",
     "dignifiedquire <dignifiedquire@gmail.com>",
     "Jonathan Ginsburg <jon@than.ml>",
     "rogeriopvl <rogeriopvl@gmail.com>",
@@ -41,7 +43,7 @@
     "greenkeeperio-bot <support@greenkeeper.io>",
     "johnjbarton <johnjbarton@johnjbarton.com>",
     "Mark Trostler <mark@zzo.com>",
-    "Micha\u0142 Go\u0142\u0119biowski-Owczarek <m.goleb@gmail.com>",
+    "Michał Gołębiowski-Owczarek <m.goleb@gmail.com>",
     "Friedel Ziegelmayer <friedel.ziegelmayer@gmail.com>",
     "dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
     "Andrey Taranov <andrey.taranov@nordea.com>",
@@ -52,7 +54,7 @@
     "David <davidsu@wix.com>",
     "Florian Richter <florian@lkr24.de>",
     "Florian-R <florian.r.dev@gmail.com>",
-    "Fran\u00e7ois SIMOND <frsimond@users.noreply.github.com>",
+    "François SIMOND <frsimond@users.noreply.github.com>",
     "Hai Feng Kao <haifeng@cocoaspice.in>",
     "J Rob Gant <rgant@alum.wpi.edu>",
     "J. Abbott <abbotto@users.noreply.github.com>",
@@ -86,7 +88,7 @@
   "bugs": {
     "url": "https://github.com/alexandroit/stackline-karma-chrome-launcher/issues"
   },
-  "homepage": "https://github.com/alexandroit/stackline-karma-chrome-launcher#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/karma-chrome-launcher/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
