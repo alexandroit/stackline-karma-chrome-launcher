@@ -1,24 +1,23 @@
 {
-  "name": "karma-chrome-launcher",
-  "version": "3.1.0",
+  "name": "@stackline/karma-chrome-launcher",
+  "version": "1.0.0",
   "description": "A Karma plugin. Launcher for Chrome and Chrome Canary.",
   "main": "index.js",
   "scripts": {
-    "lint": "standard",
-    "integration-test": "npx karma start examples/simple/karma.conf.js --single-run --browsers ChromeHeadless",
-    "unit-test": "npx mocha test/*",
-    "test": "npm run unit-test && npm run integration-test",
-    "release": "semantic-release",
-    "commitlint": "commitlint"
+    "test": "mocha test/*.spec.js && node test/stackline.cjs",
+    "test:browser": "node test/stackline.cjs",
+    "test:package": "node scripts/test-package.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-chrome-launcher.git"
+    "url": "git+https://github.com/alexandroit/stackline-karma-chrome-launcher.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-launcher",
-    "chrome"
+    "chrome",
+    "stackline",
+    "maintenance-fork"
   ],
   "author": "Vojta Jina <vojta.jina@gmail.com>",
   "dependencies": {
@@ -26,21 +25,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-angular": "^12.1.4",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.1",
-    "chai": "^4.2.0",
-    "karma": "^6.4.1",
-    "karma-mocha": "1.x || ^0.2.0",
-    "mocha": "^5.2.0",
-    "semantic-release": "^17.0.1",
-    "sinon": "^7.1.1",
-    "standard": "^12.0.0"
+    "chai": "4.5.0",
+    "sinon": "22.1.0",
+    "mocha": "12.0.2",
+    "karma": "6.4.4",
+    "karma-mocha": "2.0.1"
   },
   "contributors": [
     "Mark Ethan Trostler <mark@zzo.com>",
-    "Rogério Vicente <rogeriopvl@gmail.com>",
+    "Rog\u00e9rio Vicente <rogeriopvl@gmail.com>",
     "dignifiedquire <dignifiedquire@gmail.com>",
     "Jonathan Ginsburg <jon@than.ml>",
     "rogeriopvl <rogeriopvl@gmail.com>",
@@ -48,7 +41,7 @@
     "greenkeeperio-bot <support@greenkeeper.io>",
     "johnjbarton <johnjbarton@johnjbarton.com>",
     "Mark Trostler <mark@zzo.com>",
-    "Michał Gołębiowski-Owczarek <m.goleb@gmail.com>",
+    "Micha\u0142 Go\u0142\u0119biowski-Owczarek <m.goleb@gmail.com>",
     "Friedel Ziegelmayer <friedel.ziegelmayer@gmail.com>",
     "dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
     "Andrey Taranov <andrey.taranov@nordea.com>",
@@ -59,7 +52,7 @@
     "David <davidsu@wix.com>",
     "Florian Richter <florian@lkr24.de>",
     "Florian-R <florian.r.dev@gmail.com>",
-    "François SIMOND <frsimond@users.noreply.github.com>",
+    "Fran\u00e7ois SIMOND <frsimond@users.noreply.github.com>",
     "Hai Feng Kao <haifeng@cocoaspice.in>",
     "J Rob Gant <rgant@alum.wpi.edu>",
     "J. Abbott <abbotto@users.noreply.github.com>",
@@ -79,5 +72,23 @@
     "daniel rodriguez <maieutiquer@users.noreply.github.com>",
     "gkostov <p_e_a@gbg.bg>",
     "semantic-release-bot <semantic-release-bot@martynus.net>"
-  ]
+  ],
+  "files": [
+    "index.js",
+    "LICENSE*",
+    "license*",
+    "NOTICE",
+    "UPSTREAM.md",
+    "CHANGELOG.md",
+    "README.md",
+    "readme.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexandroit/stackline-karma-chrome-launcher/issues"
+  },
+  "homepage": "https://github.com/alexandroit/stackline-karma-chrome-launcher#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }

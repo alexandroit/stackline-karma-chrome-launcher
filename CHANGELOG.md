@@ -1,3 +1,11 @@
+# Stackline changes
+
+## 1.0.0
+
+- Scoped maintenance fork of karma-chrome-launcher@3.2.0 preserving original runtime source, dependency ranges, plugin names and engines.
+- Modernized development test tooling and removed obsolete semantic-release/commit hook dependencies.
+- Added packed-consumer checks, full dependency audit, CI/CodeQL gates, provenance and immutable releases.
+
 # [3.2.0](https://github.com/karma-runner/karma-chrome-launcher/compare/v3.1.1...v3.2.0) (2023-04-20)
 
 
