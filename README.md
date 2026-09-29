@@ -4,13 +4,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@stackline/karma-chrome-launcher.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/karma-chrome-launcher)
 [![license](https://img.shields.io/npm/l/@stackline/karma-chrome-launcher.svg?style=flat-square)](https://github.com/alexandroit/stackline-karma-chrome-launcher)
-[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-karma-chrome-launcher-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-karma-chrome-launcher)
+[![GitHub repository](https://img.shields.io/badge/GitHub-repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-karma-chrome-launcher)
 [![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/karma-chrome-launcher/)
 [![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
 **[Documentation](https://alexandro.net/docs/vanilla/karma-chrome-launcher/)** | **[npm](https://www.npmjs.com/package/@stackline/karma-chrome-launcher)** | **[Issues](https://github.com/alexandroit/stackline-karma-chrome-launcher/issues)** | **[Repository](https://github.com/alexandroit/stackline-karma-chrome-launcher)**
 
-**Current package version:** `1.0.1`
+**Current package version:** `1.0.2`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/karma-chrome-launcher@1.0.1` |
+| Package | `@stackline/karma-chrome-launcher@1.0.2` |
 | API target | `karma-chrome-launcher@3.2.0` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
